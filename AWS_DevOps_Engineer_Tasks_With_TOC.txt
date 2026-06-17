@@ -1,0 +1,28 @@
+AWS DevOps Engineer Tasks
+
+TABLE OF CONTENTS
+
+1.  AWS Infrastructure Management ……………………………. 13
+2.  Identity and Access Management (IAM) ……………………………. 14
+3.  Linux Administration ……………………………. 15
+4.  Source Code Management ……………………………. 16
+5.  Continuous Integration (CI) ……………………………. 17
+6.  Build Automation ……………………………. 18
+7.  Docker Management ……………………………. 19
+8.  Kubernetes Administration ……………………………. 20
+9.  Continuous Deployment (CD) ……………………………. 21
+10. Infrastructure as Code (IaC) ……………………………. 22
+11. Configuration Management ……………………………. 23
+12. Monitoring ……………………………. 24
+13. Logging ……………………………. 25
+14. Security ……………………………. 26
+15. Backup and Disaster Recovery ……………………………. 27
+16. Automation and Scripting ……………………………. 28
+17. Troubleshooting ……………………………. 29
+18. Cost Optimization ……………………………. 30
+19. Documentation ……………………………. 31
+20. Team Collaboration ……………………………. 32 End-to-End AWS DevOps Workflow
+    ……………………………. 33
+
+This edition includes a Table of Contents. Refer to the pointwise
+version for the detailed content under each section.

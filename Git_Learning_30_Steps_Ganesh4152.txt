@@ -1,0 +1,128 @@
+Git Learning - Complete 30 Steps
+
+1. Create GitHub Account
+
+	Create a GitHub account with username Ganesh4152. Why: GitHub stores
+repositories online.
+
+2. Install Git
+
+	Install Git on Windows. Verify using: git –version.
+
+3. Configure Git
+
+	#git config –global user.name “Ganesh4152” and 
+	#git config –global user.email “ganikings.g@gmail.com”
+
+4. Verify Configuration
+
+	Use 
+	#git config –list 
+			-git config user.name, git config user.email.
+
+5. Create Local Project
+
+Create a folder such as 
+	D:/GitProjects/EmployeeApp.
+
+6. Navigate to Project
+
+	cd D:/GitProjects/EmployeeApp.
+
+7. Initialize Repository
+
+	#git init
+ 
+	creates the hidden .git directory.
+
+8. Check Status
+
+	#git status - shows repository status.
+
+9. Create Project Files
+
+	Create README.md and index.html.
+
+10. Check Status Again
+
+	#git status - shows untracked files.
+
+11. Stage Files
+
+git add . stages files.
+
+12. Verify Staged Files
+
+git status confirms staged files.
+
+13. Commit Changes
+
+git commit -m “Initial Project Commit”.
+
+14. View History
+
+git log or git log –oneline.
+
+15. Create GitHub Repository
+
+Create EmployeeApp repository without README.
+
+16. Copy Repository URL
+
+Copy the HTTPS repository URL.
+
+17. Connect Remote
+
+git remote add origin .
+
+18. Verify Remote
+
+git remote -v.
+
+19. Rename Branch
+
+git branch -M main.
+
+20. Push Code
+
+git push -u origin main.
+
+21. Verify on GitHub
+
+Refresh GitHub and confirm files.
+
+22. Modify File
+
+Edit README.md.
+
+23. Check Status
+
+git status.
+
+24. Stage Modified File
+
+git add README.md or git add .
+
+25. Commit Update
+
+git commit -m “Updated README file”.
+
+26. Push Update
+
+git push.
+
+27. Clone Repository
+
+git clone .
+
+28. Pull Latest Changes
+
+git pull.
+
+29. Create Feature Branch
+
+git checkout -b login-feature.
+
+30. Merge Feature Branch
+
+git checkout main, git merge login-feature, git push.

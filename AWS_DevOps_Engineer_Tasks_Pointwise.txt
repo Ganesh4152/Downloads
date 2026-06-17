@@ -1,0 +1,244 @@
+AWS DevOps Engineer Tasks
+
+1.  AWS Infrastructure Management
+
+-   Launch and manage EC2 instances.
+-   Create and configure VPCs, Subnets, Route Tables, Internet Gateways,
+    and NAT Gateways.
+-   Configure Security Groups and Network ACLs.
+-   Manage Elastic IP addresses.
+-   Create and manage S3 buckets.
+-   Configure EBS volumes and snapshots.
+-   Create and manage Load Balancers (ALB/NLB).
+-   Configure Auto Scaling Groups.
+-   Create and manage RDS databases.
+-   Manage Route 53 hosted zones and DNS records.
+-   Configure CloudFront distributions.
+-   Create and manage ECS and EKS clusters.
+-   Configure AWS Lambda functions.
+
+2.  Identity and Access Management (IAM)
+
+-   Create IAM users, groups, and roles.
+-   Create and attach IAM policies.
+-   Implement least-privilege access.
+-   Configure Multi-Factor Authentication (MFA).
+-   Rotate access keys.
+-   Audit IAM permissions.
+-   Manage cross-account access.
+
+3.  Linux Administration
+
+-   Install and configure Linux servers.
+-   Create users and groups.
+-   Manage file permissions.
+-   Monitor CPU, memory, and disk usage.
+-   Configure SSH access.
+-   Install software packages.
+-   Manage system services.
+-   Troubleshoot server issues.
+
+4.  Source Code Management
+
+-   Create Git repositories.
+-   Clone repositories.
+-   Create feature branches.
+-   Commit and push code.
+-   Merge branches.
+-   Resolve merge conflicts.
+-   Create Pull Requests.
+-   Manage release tags.
+-   Maintain version history.
+
+5.  Continuous Integration (CI)
+
+-   Install and configure Jenkins.
+-   Install required plugins.
+-   Configure Jenkins credentials.
+-   Integrate Jenkins with Git repositories.
+-   Create Freestyle and Pipeline jobs.
+-   Configure automated build triggers.
+-   Execute unit tests.
+-   Archive build artifacts.
+-   Configure email notifications.
+
+6.  Build Automation
+
+-   Install Maven or Gradle.
+-   Manage project dependencies.
+-   Compile application source code.
+-   Execute automated tests.
+-   Generate JAR/WAR files.
+-   Publish build artifacts.
+-   Maintain build configurations.
+
+7.  Docker Management
+
+-   Install Docker.
+-   Create Dockerfiles.
+-   Build Docker images.
+-   Run and manage containers.
+-   Configure Docker networks.
+-   Configure Docker volumes.
+-   Push images to Docker Hub or Amazon ECR.
+-   Remove unused containers and images.
+-   Troubleshoot container issues.
+
+8.  Kubernetes Administration
+
+-   Install Kubernetes clusters.
+-   Create Namespaces.
+-   Deploy applications.
+-   Configure Services.
+-   Configure Ingress controllers.
+-   Create ConfigMaps and Secrets.
+-   Scale deployments.
+-   Perform rolling updates.
+-   Perform rollbacks.
+-   Monitor Pods and Nodes.
+-   Troubleshoot Kubernetes issues.
+
+9.  Continuous Deployment (CD)
+
+-   Automate deployments.
+-   Deploy applications to Development, QA, Staging, and Production
+    environments.
+-   Verify deployment success.
+-   Roll back failed deployments.
+-   Implement Blue-Green deployments.
+-   Implement Canary deployments.
+-   Automate release processes.
+
+10. Infrastructure as Code (IaC)
+
+-   Write Terraform configuration files.
+-   Create reusable Terraform modules.
+-   Maintain Terraform state files.
+-   Write AWS CloudFormation templates.
+-   Automate infrastructure provisioning.
+-   Version-control infrastructure code.
+
+11. Configuration Management
+
+-   Install Ansible.
+-   Create inventories.
+-   Develop Ansible playbooks.
+-   Automate software installation.
+-   Configure application servers.
+-   Perform server updates.
+-   Maintain server configurations.
+
+12. Monitoring
+
+-   Configure Amazon CloudWatch.
+-   Create CloudWatch dashboards.
+-   Configure CloudWatch alarms.
+-   Install Prometheus.
+-   Configure Grafana dashboards.
+-   Monitor infrastructure performance.
+-   Monitor application availability.
+-   Configure alert notifications.
+
+13. Logging
+
+-   Configure CloudWatch Logs.
+-   Collect application logs.
+-   Collect server logs.
+-   Configure Fluent Bit or Fluentd.
+-   Configure ELK Stack.
+-   Analyze logs.
+-   Archive logs.
+
+14. Security
+
+-   Configure IAM policies.
+-   Secure EC2 instances.
+-   Encrypt EBS volumes.
+-   Encrypt S3 buckets.
+-   Configure AWS KMS.
+-   Store secrets securely.
+-   Scan Docker images.
+-   Apply operating system patches.
+-   Perform vulnerability assessments.
+-   Audit security configurations.
+
+15. Backup and Disaster Recovery
+
+-   Create EBS snapshots.
+-   Configure RDS backups.
+-   Enable S3 versioning.
+-   Configure Cross-Region Replication.
+-   Test backup restoration.
+-   Automate backup schedules.
+-   Develop disaster recovery plans.
+
+16. Automation and Scripting
+
+-   Write Bash scripts.
+-   Write Python automation scripts.
+-   Automate deployments.
+-   Automate server provisioning.
+-   Automate monitoring.
+-   Automate backups.
+-   Schedule recurring tasks using Cron.
+-   Automate cleanup jobs.
+
+17. Troubleshooting
+
+-   Resolve Jenkins build failures.
+-   Troubleshoot deployment failures.
+-   Fix Docker container issues.
+-   Troubleshoot Kubernetes Pods.
+-   Resolve EC2 connectivity issues.
+-   Diagnose networking problems.
+-   Investigate high CPU and memory usage.
+-   Resolve IAM permission issues.
+-   Troubleshoot SSL certificate problems.
+
+18. Cost Optimization
+
+-   Monitor AWS billing.
+-   Stop unused EC2 instances.
+-   Delete unattached EBS volumes.
+-   Remove unused snapshots.
+-   Optimize storage usage.
+-   Right-size EC2 instances.
+-   Configure Auto Scaling.
+-   Use Spot Instances where appropriate.
+-   Optimize S3 storage classes.
+
+19. Documentation
+
+-   Create deployment documentation.
+-   Maintain architecture diagrams.
+-   Prepare Standard Operating Procedures (SOPs).
+-   Document CI/CD pipelines.
+-   Create troubleshooting guides.
+-   Prepare incident reports.
+-   Maintain operational runbooks.
+
+20. Team Collaboration
+
+-   Participate in daily stand-up meetings.
+-   Collaborate with developers.
+-   Support QA and testing teams.
+-   Coordinate production deployments.
+-   Review infrastructure changes.
+-   Share technical knowledge.
+-   Participate in incident response.
+
+End-to-End AWS DevOps Workflow 1. Gather application requirements. 2.
+Provision AWS infrastructure. 3. Configure networking and security. 4.
+Create and manage Git repositories. 5. Configure Jenkins CI/CD
+pipelines. 6. Build applications using Maven or Gradle. 7. Execute
+automated testing. 8. Build Docker images. 9. Push Docker images to
+Amazon ECR. 10. Deploy applications to Amazon EKS or ECS. 11. Configure
+monitoring using CloudWatch, Prometheus, and Grafana. 12. Centralize
+logs using CloudWatch Logs or ELK Stack. 13. Secure infrastructure using
+IAM, KMS, and Secrets Manager. 14. Automate infrastructure using
+Terraform and Ansible. 15. Monitor production environments continuously.
+16. Troubleshoot infrastructure and application issues. 17. Optimize AWS
+resource utilization and costs. 18. Maintain documentation and
+operational procedures. 19. Support production releases and incident
+management. 20. Continuously improve automation, security, performance,
+and reliability.

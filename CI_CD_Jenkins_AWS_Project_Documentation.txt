@@ -1,0 +1,25 @@
+CI/CD Automation using GitHub, Jenkins and AWS EC2
+
+Objective:
+Implement a complete CI/CD pipeline using GitHub, Jenkins, Maven and AWS EC2.
+
+Workflow:
+Developer -> GitHub -> Webhook -> Jenkins -> Build -> Deploy -> Application Server
+
+Main Steps:
+1. Launch two EC2 instances (Jenkins & Application Server).
+2. Install Java 17, Git, Maven on Jenkins server.
+3. Install Jenkins and configure JDK, Git and Maven.
+4. Install Java 17 on Application Server.
+5. Fork and clone Spring PetClinic.
+6. Configure GitHub authentication (PAT or SSH).
+7. Configure passwordless SSH from Jenkins user to Application Server.
+8. Configure GitHub Webhook.
+9. Create Jenkinsfile.
+10. Create Jenkins Pipeline Job.
+11. Build pipeline.
+12. Verify deployment.
+13. Test automatic deployment using GitHub push.
+
+Outcome:
+Automatic build and deployment of Spring PetClinic using Jenkins CI/CD on AWS EC2.

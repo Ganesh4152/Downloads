@@ -1,0 +1,97 @@
+AWS DevOps Engineer Tasks
+
+AWS DevOps Engineers are responsible for designing, implementing,
+automating, monitoring, securing, and maintaining cloud infrastructure
+and application deployment pipelines on AWS. They work closely with
+development, testing, and operations teams to ensure fast, reliable, and
+secure software delivery.
+
+Infrastructure Management Provision and manage AWS infrastructure
+including EC2 instances, VPCs, Subnets, Route Tables, Internet Gateways,
+NAT Gateways, Security Groups, Network ACLs, Elastic IPs, Load
+Balancers, Auto Scaling Groups, RDS databases, S3 buckets, EBS volumes,
+Route 53 DNS, CloudFront distributions, Lambda functions, ECS, and EKS
+clusters.
+
+Identity and Access Management (IAM) Create and manage IAM users,
+groups, roles, and policies. Implement least-privilege access, enable
+Multi-Factor Authentication (MFA), rotate access keys, manage
+permissions, and perform regular security audits.
+
+Source Code Management Manage source code using Git by creating
+repositories, cloning projects, creating branches, committing changes,
+pushing code, merging branches, resolving merge conflicts, creating Pull
+Requests, tagging releases, and maintaining version history.
+
+Continuous Integration (CI) Install and configure Jenkins, integrate it
+with Git repositories, configure plugins and credentials, create Jenkins
+Freestyle and Pipeline jobs, automate code builds, execute unit tests,
+archive build artifacts, and send build notifications.
+
+Build Automation Configure build tools such as Maven or Gradle to
+compile source code, manage dependencies, execute automated tests,
+package applications into JAR or WAR files, and publish build artifacts.
+
+Docker Containerization Install Docker, create Dockerfiles, build Docker
+images, run and manage containers, configure Docker networks and
+volumes, tag images, push images to Amazon ECR or Docker Hub, remove
+unused resources, and troubleshoot container-related issues.
+
+Kubernetes Administration Deploy and manage applications on Kubernetes
+by creating namespaces, deployments, services, ingress resources,
+ConfigMaps, Secrets, and persistent storage. Perform rolling updates,
+rollbacks, scaling, health monitoring, and troubleshoot pod and cluster
+issues.
+
+Continuous Deployment (CD) Automate application deployments to
+development, testing, staging, and production environments. Verify
+deployment success, perform rollbacks when necessary, implement
+Blue-Green and Canary deployment strategies, and automate release
+management.
+
+Infrastructure as Code (IaC) Use Terraform or AWS CloudFormation to
+provision and manage cloud infrastructure. Develop reusable modules,
+maintain infrastructure state, automate resource creation, and
+version-control infrastructure configurations.
+
+Configuration Management Use Ansible to automate server configuration,
+software installation, application deployment, system updates,
+configuration changes, and ongoing server maintenance.
+
+Monitoring Monitor infrastructure and applications using Amazon
+CloudWatch, Prometheus, and Grafana. Configure dashboards, alarms,
+metrics, and alerts to monitor CPU, memory, disk usage, network
+performance, application availability, Kubernetes clusters, and Jenkins
+pipelines.
+
+Logging Collect, centralize, and analyze logs using CloudWatch Logs, ELK
+Stack, Fluent Bit, or Fluentd.
+
+Security Implement AWS security best practices including IAM,
+encryption, KMS, Secrets Manager, vulnerability scanning, patching, and
+auditing.
+
+Backup and Disaster Recovery Configure backups, snapshots, replication,
+restoration testing, and disaster recovery plans.
+
+Automation and Scripting Develop Bash and Python scripts for
+infrastructure provisioning, deployment automation, monitoring, backups,
+cleanup, and scheduled tasks.
+
+Troubleshooting Resolve build failures, deployment issues, container
+failures, Kubernetes issues, networking problems, IAM permissions, SSL
+issues, and performance bottlenecks.
+
+Cost Optimization Optimize AWS resources, right-size instances,
+configure Auto Scaling, remove unused resources, and monitor billing.
+
+Documentation Maintain deployment guides, architecture diagrams, SOPs,
+troubleshooting guides, runbooks, and incident reports.
+
+Collaboration Work with developers, QA, operations, and security teams
+to support reliable software delivery.
+
+End-to-End Responsibilities Provision infrastructure, automate
+deployments, manage CI/CD pipelines, monitor systems, secure
+environments, optimize costs, troubleshoot issues, and continuously
+improve DevOps processes.
